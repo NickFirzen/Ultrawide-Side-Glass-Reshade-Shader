@@ -1,24 +1,65 @@
-# Ultrawide-Side-Glass-Reshade-Shader
-Ultrawide Side Glass - Anti Pillarbox Measurement Reshade Shader for ultrawide monitors
-such as 21:9/32:9 for 4:3, 16:9 and various 21:9s aspect ratio content masking that leaves the centre screen as is,
-but puts some effects on the sides which are otherwise would be black pillar boxes.
-It's a small dream came true for me as 32:9 user, been looking forward something like this...
+UltrawideSideGlass ReShade Shader 🚀-an Anti Pillarbox Measurement🤓
 
- * UltrawideSideGlass ReShade Shader
- * Fills black pillars on ultrawide monitors with zoomed, mirrored, or crystal-like content.
- * Center: Untouched, passes HDR metadata.
- * Sides: LegacyMirror -> Zoom -> ZoomFlip -> Fisheye -> MirrorPlane -> CrystalView -> FrostedBlur -> BrightnessBoost
- * Supported Aspect Ratios: 16:9, 21:9, 2.35:1, 2.37:1, 2.39:1, 2.40:1, 4:3, 2:1
- * Note: This is a comprehensive shader with all features. For optimal performance, create standalone versions per aspect ratio after finalizing settings.
- *
- * Tested with Media Player Classic x64 and Black Edition, using ReShade 6.5.1. Should work with games and other apps, but not guaranteed.
- * Created by NickFirzen, with significant help from Grok (xAI). Other AI tools (ChatGPT, Copilot, etc.) may have contributed—honestly, it was chaos, I’m not a coder! :)
- * No shaders by others were used; any similarities are coincidental due to AI assistance. Sorry if that happened!
- * I’ve wanted something like this for ages. Hope you love it as much as I do!
- *
- * License: Free to use, modify, or build upon (MIT License). Feel free to:
- * - Create versions for 16:9/16:10 to fill letterboxes instead of pillarboxes.
- * - Combine with other shaders/presets (e.g., add image backgrounds, alpha-transparent PNGs like window/TV frames or landscapes).
- *
- * Find me as NickFirzen on Ko-fi, YouTube, or elsewhere if you want to support me in anyway!
- * Ultrawide FTW!
+Eliminate black pillars on ultrawide monitors with style! UltrawideSideGlass is a custom ReShade shader that fills the black bars (pillarboxes) on ultrawide displays (21:9, 32:9, and more) with zoomed, mirrored, or crystal-like effects, preserving the center image and HDR metadata.
+As a 32:9 user, this was a dream project for me—finally, no more black bars ruining the vibe! Perfect for gaming 🎮 and media playback (e.g., MPC-BE/MPC-HC).
+
+
+Features ✨
+
+-Supported Aspect Ratios: 4:3, 16:9, 16:10, 21:9, 32:9, 2.35:1, 2.37:1, 2.39:1, 2.40:1, 2:1
+
+-Effects Pipeline: Legacy Mirror → Zoom → ZoomFlip → Fisheye → Mirror Plane → CrystalView → Frosted Blur → Brightness Boost
+
+-Customizable: Adjust blur, zoom, fisheye, crystal effects, and more via ReShade’s UI
+
+-Compatibility: Tested with Media Player Classic (MPC-HC, MPC-BE x64, Black Edition) on ReShade 6.5.1. Should work with games and other apps, but not guaranteed
+
+-Free to Modify: MIT License. Create versions for 16:9/16:10 to fill letterboxes, or combine with other shaders/presets in usage or in code (e.g., add image backgrounds or alpha-transparent PNGs like window/TV frames or landscapes)
+
+
+Installation 🛠️
+
+1️⃣Install ReShade: Download and install ReShade from reshade.me for your game or media player.
+
+2️⃣Add Shader:
+
+-Download/copy SideGlass_UltraWide.fx or the rar (ultrawidesideglass-antipillarboxmeasurementreshadeshader.rar) from the Releases section.
+
+-Copy SideGlass_UltraWide.fx to your ReShade shaders folder per game/app you'd like to use with (e.g., ...\reshade-shaders\Shaders).
+
+3️⃣Enable in ReShade:
+
+-Open ReShade’s UI in-game (default: Home key).
+
+-Select SideGlass_UltraWide from the shader list.
+
+-Choose your aspect ratio (e.g., Enable_21_9 or Enable_32_9) and tweak settings as needed, try combos.
+
+
+Optional: Extract the .rar for pre-configured settings or backup.
+
+
+Notes 📝
+
+-Performance Tip: This shader supports multiple aspect ratios for flexibility. For optimal performance, isolate your preferred aspect ratio into a standalone version.
+
+-Debug Mode: Enable ShowDebugMask (per aspect ratio) to highlight affected areas in red for setup.
+
+
+Credits 🙌
+
+
+Created by NickFirzen with major help from Grok (xAI). Other AI tools (ChatGPT, Copilot, etc.) may have contributed—it was a chaotic coding adventure, and I’m not even a coder! XD No other shaders were used; any similarities are coincidental due to AI. Sorry if so!
+
+
+Support ☕
+
+This shader is free and open-source (MIT License). If you enjoy it and want to support, consider a one-time donation on Ko-fi:
+ko-fi/nickfirzen
+Or a follow/sub as NickFirzen on YouTube or elsewhere!
+youtube.com/nickfirzen
+
+!Let’s make ultrawide displays even better—Ultrawide FTW!
+
+
+Created by NickFirzen. Licensed under MIT.
