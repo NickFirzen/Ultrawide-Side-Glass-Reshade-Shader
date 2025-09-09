@@ -4,6 +4,7 @@ Eliminate black pillars on ultrawide monitors with style! UltrawideSideGlass is 
 As a 32:9 user, this was a dream project for me—finally, no more black bars ruining the vibe! Perfect for gaming 🎮 and media playback (e.g., MPC-BE/MPC-HC).
 
 Full visible code: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/blob/main/UltrawideSideGlass.fx
+
 Rar: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/blob/main/UltrawideSideGlass-AntiPillarboxMeasurementReshadeShader.rar
 
 Features ✨
@@ -21,7 +22,7 @@ Features ✨
 
 Installation 🛠️
 
-1️⃣Install ReShade: Download and install ReShade from reshade.me for your game or media player.
+1️⃣!Requirement! Install ReShade: Download and install ReShade from https://reshade.me for your game or media player.
 
 2️⃣Add Shader:
 
@@ -58,6 +59,7 @@ Support ☕
 
 This shader is free and open-source (MIT License). If you enjoy it and want to support, consider a one-time donation on Ko-fi:
 https://ko-fi.com/nickfirzen
+
 Or a follow/sub as NickFirzen on YouTube or elsewhere!
 https://youtube.com/@nickfirzen
 
