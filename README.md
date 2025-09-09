@@ -57,7 +57,7 @@ Support ☕
 This shader is free and open-source (MIT License). If you enjoy it and want to support, consider a one-time donation on Ko-fi:
 ko-fi/nickfirzen
 Or a follow/sub as NickFirzen on YouTube or elsewhere!
-youtube.com/nickfirzen
+youtube.com/@nickfirzen
 
 !Let’s make ultrawide displays even better—Ultrawide FTW!
 
