@@ -57,9 +57,9 @@ Created by NickFirzen with major help from Grok (xAI). Other AI tools (ChatGPT, 
 Support ☕
 
 This shader is free and open-source (MIT License). If you enjoy it and want to support, consider a one-time donation on Ko-fi:
-ko-fi/nickfirzen
+https://ko-fi.com/nickfirzen
 Or a follow/sub as NickFirzen on YouTube or elsewhere!
-youtube.com/@nickfirzen
+https://youtube.com/@nickfirzen
 
 !Let’s make ultrawide displays even better—Ultrawide FTW!
 
