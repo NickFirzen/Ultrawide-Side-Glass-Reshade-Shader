@@ -7,7 +7,7 @@ As a 32:9 user, this was a dream project for me—finally, no more black bars ru
 
 📕Rar: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/blob/main/UltrawideSideGlass-AntiPillarboxMeasurementReshadeShader.rar
 
-🖼️Pictures: https://imgur.com/a/WhE09df
+🖼️Pictures: https://imgur.com/a/WhE09df https://imgur.com/a/XQUJ8b5
 
 Features ✨
 
