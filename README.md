@@ -3,15 +3,17 @@ UltrawideSideGlass ReShade Shader 🚀-an Anti Pillarbox Measurement🤓
 Eliminate black pillars on ultrawide monitors with style! UltrawideSideGlass is a custom ReShade shader that fills the black bars (pillarboxes) on ultrawide displays (21:9, 32:9, and more) with zoomed, mirrored, or crystal-like effects, preserving the center image and HDR metadata.
 As a 32:9 user, this was a dream project for me—finally, no more black bars ruining the vibe! Perfect for gaming 🎮 and media playback (e.g., MPC-BE/MPC-HC).
 
-📜Full visible code: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/blob/main/UltrawideSideGlass.fx
+📜Shader: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/releases/download/v1.1/UltrawideSideGlass.fx
 
-📕Rar: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/blob/main/UltrawideSideGlass-AntiPillarboxMeasurementReshadeShader.rar
+📕Rar: https://github.com/NickFirzen/Ultrawide-Side-Glass-Reshade-Shader/releases/download/v1.1/UltrawideSideGlass.rar
 
 🖼️Pictures: https://imgur.com/a/WhE09df https://imgur.com/a/XQUJ8b5
 
 Features ✨
 
 -Supported Aspect Ratios: 4:3, 16:9, 16:10, 21:9, 32:9, 2.35:1, 2.37:1, 2.39:1, 2.40:1, 2:1
+
+Now added 3:2 and 1.85:1!🥳
 
 -Effects Pipeline: Legacy Mirror → Zoom → ZoomFlip → Fisheye → Mirror Plane → CrystalView → Frosted Blur → Brightness Boost
 
